@@ -1,0 +1,17 @@
+[package]
+name = "ndk-rs"
+version = "0.0.0"
+authors = ["Jarod Liu <liuyuanzhi@gmail.com>"]
+description = """
+A helper library for build.rs to work with NDK to build native libraries targeting android.
+"""
+readme = "README.md"
+documentation = "https://docs.rs/ndk-rs/"
+homepage = "https://github.com/jarod/ndk-rs"
+repository = "https://github.com/jarod/ndk-rs"
+license = "MIT"
+keywords = ["android", "ndk"]
+categories = ["development-tools::build"]
+
+[lib]
+name = "ndk"
